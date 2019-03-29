@@ -1,0 +1,5 @@
+In MATLAB if ri is an array with variable values and w is an array with
+weights of the same shape and mask is a mask array with the same shape:
+riwtavg=(ri.*mask.*w)/sum(mask.*w)
+puts the weighted average of ri in the variable riwtavg.
+
